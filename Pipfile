@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+black = "*"
+langchain = "*"
+langgraph = "*"
+langchain-community = "*"
+langchain-google-genai = "*"
+isort = "*"
+python-dotenv = "*"
+tavily-python = "*"
+langchainhub = "*"
+beautifulsoup4 = "*"
+pytest = "*"
+chromadb = "*"
+langchain-chroma = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
